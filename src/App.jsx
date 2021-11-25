@@ -3,9 +3,10 @@ import {
   Container
 } from "@chakra-ui/react"
 import ColorModeChanger from "./components/ColorModeChanger";
+import Estudios from "./pages/Estudios";
 import Perfil from "./pages/Perfil";
 import Proyectos from "./pages/Proyectos";
-import Tecnologies from "./pages/Tecnologias";
+import Tecnologias from "./pages/Tecnologias";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <ColorModeChanger />
         <Perfil />
         <Proyectos />
-        <Tecnologies />
+        <Tecnologias />
+        <Estudios />
       </Container>
     </Box>
   );
