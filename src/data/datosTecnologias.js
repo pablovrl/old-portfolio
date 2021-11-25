@@ -66,10 +66,6 @@ const tecnologias = [
     nombre: "Bases de datos",
     tecnologias: [
       {
-        nombre: "SQL",
-        icono: "fas fa-database"
-      },
-      {
         nombre: "PostgreSQL",
         icono: "devicon-postgresql-plain colored"
       },

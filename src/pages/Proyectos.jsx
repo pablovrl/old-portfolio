@@ -9,7 +9,7 @@ import proyectos from '../data/datosProyectos'
 
 export default function Proyectos() {
 
-  const componentesProyectos = proyectos.map( p => <Proyecto proyecto={p} />)
+  const componentesProyectos = proyectos.map( p => <Proyecto key={p.nombre} proyecto={p} />)
 
   return (
     <VStack align="start">

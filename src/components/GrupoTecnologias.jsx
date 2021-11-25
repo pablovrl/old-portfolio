@@ -9,7 +9,7 @@ export default function GrupoTecnologias({ tipo }) {
       <Divider />
       <HStack spacing={6} p={4} >
         {tipo.tecnologias.map(tec => (
-          <Tecnologia nombre={tec.nombre} icono={tec.icono} />
+          <Tecnologia key={tec.nombre} nombre={tec.nombre} icono={tec.icono} />
         ))}
       </HStack>
     </Box>

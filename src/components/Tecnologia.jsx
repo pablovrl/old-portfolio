@@ -1,11 +1,16 @@
 import React from 'react'
 import { VStack, Text } from '@chakra-ui/react'
+import {useMediaQuery} from 'react-responsive'
 
-export default function Tecnologia({nombre, icono}) {
+export default function Tecnologia({ nombre, icono }) {
+
+  const isMobile = useMediaQuery({query: '(max-width: 670px)'})
+  let iconStyle = isMobile ? {fontSize: "2.5rem"} : {fontSize: "4rem"}
+
   return (
     <VStack w={"100%"}>
-      <i style={{fontSize: "3.5rem"}} className={icono}></i>
-      <Text>{nombre}</Text>
+        <i style={iconStyle} className={icono}></i>
+        <Text>{nombre}</Text>
     </VStack>
   )
 }

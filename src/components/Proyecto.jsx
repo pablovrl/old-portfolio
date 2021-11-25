@@ -9,7 +9,7 @@ export default function Proyecto({ proyecto }) {
           <Text fontSize="xl" fontWeight="bold">{proyecto.nombre}</Text>
           <Link href={proyecto.github} isExternal> <i className="fab fa-github fa-2x"></i> </Link>
           {proyecto.link !== "" ? 
-            <Link href={proyecto.link} isExternal> <i class="far fa-eye fa-2x"></i> </Link> :
+            <Link href={proyecto.link} isExternal> <i className="far fa-eye fa-2x"></i> </Link> :
             ""
           }
         </HStack>

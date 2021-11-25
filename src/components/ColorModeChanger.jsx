@@ -14,7 +14,7 @@ export default function ColorModeChanger() {
     <Flex>
       <Spacer />
       <Button my={4} onClick={toggleColorMode}>
-        {colorMode === 'light' ? <i class="fas fa-moon"></i> : <i class="fas fa-sun"></i>}
+        {colorMode === 'light' ? <i className="fas fa-moon"></i> : <i className="fas fa-sun"></i>}
       </Button>
     </Flex>
   )

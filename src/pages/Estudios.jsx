@@ -15,7 +15,7 @@ export default function Estudios() {
             fontSize="xl"
           />
           <TextoConIcono
-            text="Marzo 2019 - Presente"
+            text="Marzo 2019 - Actualidad"
             icono="fas fa-calendar-alt"
             fontSize="xl"
           />

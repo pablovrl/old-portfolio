@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/react'
 import TextoConIcono from '../components/TextoConIcono'
 
-const componentesTecnologias = tecnologias.map(tec => <GrupoTecnologias tipo={tec} />)
+const componentesTecnologias = tecnologias.map(tec => <GrupoTecnologias key={tec.nombre} tipo={tec} />)
 
 export default function Tecnologias() {
   return (
