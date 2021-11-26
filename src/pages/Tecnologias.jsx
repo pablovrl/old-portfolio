@@ -12,7 +12,7 @@ const componentesTecnologias = tecnologias.map(tec => <GrupoTecnologias key={tec
 export default function Tecnologias() {
   return (
     <VStack align="start">
-      <TextoConIcono my={4} text="Tecnologías" icono="fas fa-code fa-2x" fontSize="4xl" bold/>
+      <TextoConIcono text="Tecnologías" icono="fas fa-code fa-2x" fontSize="4xl" bold/>
       <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6} w="100%">
         {componentesTecnologias}
       </SimpleGrid>

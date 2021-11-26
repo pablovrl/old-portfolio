@@ -6,7 +6,7 @@ export default function Estudios() {
   return (
     <Box>
       <VStack align="start">
-        <TextoConIcono my={4} text="Educación" icono="fas fa-graduation-cap fa-2x" fontSize="4xl" bold />
+        <TextoConIcono text="Educación" icono="fas fa-graduation-cap fa-2x" fontSize="4xl" bold />
         <Box borderWidth="1px" rounded="lg" shadow="lg" p={4}>
           <Text mb={2} fontSize="2xl" fontWeight="bold">Ingeniería de Ejecución en Computación e Informática</Text>
           <TextoConIcono

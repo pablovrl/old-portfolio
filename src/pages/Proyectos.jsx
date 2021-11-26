@@ -13,7 +13,7 @@ export default function Proyectos() {
 
   return (
     <VStack align="start">
-      <TextoConIcono my={4} text="Proyectos" icono="fas fa-folder-open fa-2x" fontSize="4xl" bold/>
+      <TextoConIcono text="Proyectos" icono="fas fa-folder-open fa-2x" fontSize="4xl" bold/>
       <SimpleGrid columns={{base: 1, md: 2}} w="100%" spacing="4">
         {componentesProyectos}
       </SimpleGrid>
