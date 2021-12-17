@@ -5,7 +5,7 @@ import {useMediaQuery} from 'react-responsive'
 export default function Tecnologia({ nombre, icono }) {
 
   const isMobile = useMediaQuery({query: '(max-width: 670px)'})
-  let iconStyle = isMobile ? {fontSize: "2.5rem"} : {fontSize: "4rem"}
+  const iconStyle = isMobile ? {fontSize: "2.5rem"} : {fontSize: "4rem"}
 
   return (
     <VStack w={"100%"}>

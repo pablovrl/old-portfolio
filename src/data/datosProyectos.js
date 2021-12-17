@@ -13,9 +13,15 @@ const proyectos = [
   },
   {
     nombre: "Portafolio",
-    descripcion: "El portfolio que estás viendo actualmente, desarrollado con React y Chakra UI.",
+    descripcion: "El portfolio que estás viendo, aquí mostraré información sobre mí y los proyectos que desarrollaré.",
     link: "",
     github: "https://github.com/pabloVrl/portfolio"
+  },
+  {
+    nombre: "API con JWT y BCRYPT",
+    descripcion: "API que permite registrarse e iniciar sesión. Al crear un nuevo usuario se encripta su contraseña con la libreria bcryp, y al iniciar sesión de envía un JWT.",
+    link: "",
+    github: "https://github.com/pabloVrl/node-auth-token-api"
   }
 ]
 

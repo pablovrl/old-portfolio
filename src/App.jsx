@@ -4,17 +4,18 @@ import {
   Divider 
 } from "@chakra-ui/react"
 import ColorModeChanger from "./components/ColorModeChanger";
-import Estudios from "./pages/Estudios";
-import Perfil from "./pages/Perfil";
-import Proyectos from "./pages/Proyectos";
-import Tecnologias from "./pages/Tecnologias";
+import Estudios from "./components/Estudios";
+import Perfil from "./components/Perfil";
+import Proyectos from "./components/Proyectos";
+import Tecnologias from "./components/Tecnologias";
+import Experiencia from "./components/Experiencia";
 
 
 function App() {
 
 
   return (
-    <Box my={5} h="100" borderTopWidth="3px" borderColor="purple.500" m={0}>
+    <Box h="100" borderTopWidth="8px" borderColor="purple.500" m={0}>
       <Container maxW="container.lg">
         <ColorModeChanger />
         <Perfil />
@@ -24,6 +25,8 @@ function App() {
         <Tecnologias />
         <Divider my={8}/>
         <Estudios />
+        <Divider my={8}/>
+        <Experiencia />
         <Divider my={8}/>
       </Container>
     </Box>
