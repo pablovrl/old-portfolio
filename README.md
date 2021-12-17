@@ -1,8 +1,9 @@
 # Mi Portafolio
-Portafolio en el que podré mostrar información sobre mí y mis proyectos.
+Portafolio en el que mostraré información sobre mí y mis proyectos.
 ## Tecnologías utilizadas
 - React
 - Chakra UI
+
 ## Vista previa
 [Puedes verlo aquí!](https://pablovillarroel.xyz/)
 
