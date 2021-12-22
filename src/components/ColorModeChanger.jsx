@@ -5,6 +5,7 @@ import {
   Button,
   useColorMode
 } from '@chakra-ui/react';
+import { FaSun, FaMoon  } from 'react-icons/fa'
 
 export default function ColorModeChanger() {
 
@@ -14,7 +15,7 @@ export default function ColorModeChanger() {
     <Flex>
       <Spacer />
       <Button my={4} onClick={toggleColorMode}>
-        {colorMode === 'light' ? <i className="fas fa-moon"></i> : <i className="fas fa-sun"></i>}
+        {colorMode === 'light' ? <FaMoon /> : <FaSun /> }
       </Button>
     </Flex>
   )

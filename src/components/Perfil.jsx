@@ -5,6 +5,10 @@ import {
   Link,
   Box
 } from "@chakra-ui/react"
+
+const iconStyle = {
+  fontSize: "2rem"
+}
 export default function Perfil() {
   return (
     <Box my={4}>
@@ -27,10 +31,10 @@ export default function Perfil() {
       </Text >
       <HStack spacing="15px">
         <Link href="https://github.com/pabloVrl" isExternal>
-          <i className="fab fa-github fa-2x"></i>
+          <i style={iconStyle} className="devicon-github-original"></i>
         </Link>
         <Link href="https://www.linkedin.com/in/pablo-villarroel-antillanca-850974186/" isExternal>
-          <i className="fab fa-linkedin fa-2x"></i>
+          <i style={iconStyle} className="devicon-linkedin-plain"></i>
         </Link>
       </HStack>
     </Box>

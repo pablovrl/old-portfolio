@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Text, VStack, HStack, Link, Spacer } from '@chakra-ui/react'
+import { FaGithub, FaLink } from 'react-icons/fa'
 
 export default function Proyecto({ proyecto }) {
 
@@ -11,8 +12,8 @@ export default function Proyecto({ proyecto }) {
         <HStack spacing={3} w="100%">
           <Text fontSize="xl" fontWeight="bold">{proyecto.nombre}</Text>
           <Spacer />
-          {proyecto.link !== "" && <Link href={proyecto.link} isExternal> <i style={iconStyle}  className="fas fa-link"></i> </Link>}
-          <Link href={proyecto.github} isExternal> <i style={iconStyle} className="fab fa-github"></i> </Link>
+          {proyecto.link !== "" && <Link href={proyecto.link} isExternal> <FaLink style={iconStyle}/> </Link>}
+          <Link href={proyecto.github} isExternal> <FaGithub style={iconStyle}/> </Link>
         </HStack>
         <Text fontSize="md">{proyecto.descripcion}</Text>
       </VStack>

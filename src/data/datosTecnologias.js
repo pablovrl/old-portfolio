@@ -54,11 +54,11 @@ const tecnologias = [
       },
       {
         nombre: "Linux",
-        icono: "fab fa-linux"
+        icono: "devicon-linux-plain"
       },
       {
         nombre: "Github",
-        icono: "fab fa-github"
+        icono: "devicon-github-original"
       }
     ]
   },
