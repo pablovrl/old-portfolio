@@ -11,7 +11,7 @@ export default function Experiencia() {
       <VStack align="start">
         <TextoConIcono text="Experiencia" icono={<FaBriefcase style={{fontSize: "2rem"}}/>} fontSize="4xl" bold />
         {datosExperiencia.map(experiencia => (
-          <Box borderWidth="3px" rounded="lg" p={4} w="100%">
+          <Box key={experiencia.descripción} borderWidth="3px" rounded="lg" p={4} w="100%">
             <HStack>
               <Text mb={2} fontSize="2xl" fontWeight="bold">{experiencia.puesto}</Text>
               <Spacer />
@@ -31,7 +31,7 @@ export default function Experiencia() {
             <Wrap>
 
               {experiencia.tecnologias.map(tec => (
-                <WrapItem>
+                <WrapItem key={tec.nombre}>
                   <Badge colorScheme="purple">{tec.nombre}</Badge>
                 </WrapItem>
               ))}

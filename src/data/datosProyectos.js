@@ -19,7 +19,7 @@ const proyectos = [
   },
   {
     nombre: "API con JWT y BCRYPT",
-    descripcion: "API que permite registrarse e iniciar sesión. Al crear un nuevo usuario se encripta su contraseña con la libreria bcryp, y al iniciar sesión de envía un JWT.",
+    descripcion: "API que permite registrarse e iniciar sesión. Al crear un nuevo usuario se encripta su contraseña y al iniciar sesión de envía un token.",
     link: "",
     github: "https://github.com/pabloVrl/node-auth-token-api"
   }
