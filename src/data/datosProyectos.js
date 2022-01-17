@@ -14,12 +14,12 @@ const proyectos = [
   {
     nombre: "Portafolio",
     descripcion: "El portfolio que estás viendo, aquí mostraré información sobre mí y los proyectos que desarrollaré.",
-    link: "",
+    link: "https://pablovillarroel.xyz/",
     github: "https://github.com/pabloVrl/portfolio"
   },
   {
     nombre: "API con JWT y BCRYPT",
-    descripcion: "API que permite registrarse e iniciar sesión. Al crear un nuevo usuario se encripta su contraseña y al iniciar sesión de envía un token.",
+    descripcion: "API que permite registrarse e iniciar sesión. Al crear un nuevo usuario se encripta su contraseña y al iniciar sesión se le envía un token.",
     link: "",
     github: "https://github.com/pabloVrl/node-auth-token-api"
   }
